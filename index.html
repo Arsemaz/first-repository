@@ -2,14 +2,29 @@
 <html>
 <head>
 <title>Page title</title>
-
-
 </head>
+<style>
+    .city {
+        background-color: bisque;
+        color:blueviolet;
+        border: 2px solid black;
+        margin: 20px;
+        padding: 20px;
+    }
+</style>
+<style> table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  } 
+  th, td{border-style:dotted}
+  </style>
 <body style="background-color:rgb(204, 172, 236)">
+<a href="#c2">Jump to Chapter 2</a>
 <a href="about.html">Go Home</a><br>
 <a href="https://refactory.ug" target="_blank">Refactory website</a>
-
+<div class="city">
 <h1 style="color:rgb(77, 77, 219)">Chapter 1</h1>
+</div>
 <h1 style="font: size 20px;">Chapter 1 </h1>
 <p>This CSS tutorial contains hundreds of CSS examples.
 
@@ -22,7 +37,9 @@
 <p>This CSS tutorial contains hundreds of CSS examples.
 
     With our online editor, you can edit the CSS, and click on a button to view the result.</p>
-<h>Chapter 2 </h1>
+    <div class="city">
+    <h1 id="c2">Chapter 2 </h1>
+</div>
 <p> This CSS tutorial contains hundreds of CSS examples.
 
     With our online editor, you can edit the CSS, and click on a button to view the result.</p>
@@ -32,6 +49,7 @@
    <p> With our online editor, you can edit the CSS, and click on a button to view the result.</p>
 
 <table>
+    
     <thead>
     <tr>
         <th>First name </th>
