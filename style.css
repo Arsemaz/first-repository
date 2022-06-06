@@ -1,5 +1,9 @@
 body{
-background-color: rgb(230, 82, 82);
-color: rgb(72, 72, 246);
+background-image: url("paris.jpg");
+opacity: 0.1;
+background-repeat: none;
+background-attachment: fixed;
+color: black;/* the text color will be blue*/
+opacity: 1.0;
 padding: 40px;
 text-align: center}
